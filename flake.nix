@@ -32,7 +32,7 @@
             "-DCMAKE_VERBOSE_MAKEFILE=OFF"
             "-DCMAKE_C_FLAGS=-w"
             "-DWITH_PULSEAUDIO=Yes"
-            "-DWITH_ALSA=No"
+            "-DWITH_ALSA=Yes"
             "-DWITH_JACK=No"
           ];
 
