@@ -44,10 +44,11 @@
           };
         };
     in {
-      packages = {
+      packages = rec {
         vban_receptor = vban' {binary = "vban_receptor";};
         vban_emitter = vban' {binary = "vban_emitter";};
         vban_sendtext = vban' {binary = "vban_sendtext";};
+        default = vban_receptor;
       };
     });
 }
